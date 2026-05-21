@@ -1,4 +1,4 @@
-##  query 1 - Dado um comportamento, quais riscos a saúde são suscetíveis?
+##  CQ1 - What are the health risks associated with a given behavior?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -10,7 +10,9 @@ SELECT distinct ?behavior ?illness WHERE {
 	?behavior my:Results ?illness.
 }
 
-##  query 2 - Dado um cadeirante, a que riscos a saúde ele é suscetível?
+
+
+## CQ2 - What health risks is a wheelchair user susceptible to?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -26,7 +28,9 @@ SELECT distinct ?person ?behavior ?illness ?susceptibility WHERE {
 	?behavior my:susceptibilities ?susceptibility	
 }
 
-## query 3 - Dado um cadeirante, quais comportamentos aumentam a probabilidade de desenvolver um risco a saúde?
+
+
+## CQ3 - Which behaviors increase the likelihood of developing a health risk for a wheelchair user?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -43,7 +47,9 @@ SELECT distinct ?person ?behavior ?illness ?susceptibility WHERE {
 	?susceptibility rdf:type my:High_Susceptibility 
 }
 
-## query 4 - Dado um cadeirante, que comportamento preventivo ele precisa fazer?
+
+
+## CQ4 - What preventive behaviors should a wheelchair user engage in?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -58,11 +64,7 @@ SELECT distinct ?person ?illness ?recommendation WHERE {
 }
 
 
-## query 5 - reavaliar
-
-
-
-## query 6 - Dada uma deficiência quais outros riscos a saúde são consequentes?
+## CQ5 - What additional health risks may arise as a consequence of a disability?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -75,7 +77,9 @@ SELECT distinct ?disorder ?illness WHERE {
 	?illness my:relatedIllness ?disorder	
 }
 
-## query 7 - Dado uma patologia, quais atividades diminuem a probabilidade de maiores riscos a saúde?
+
+
+## CQ6 - Which activities reduce the likelihood of major health risks given a disability?
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
