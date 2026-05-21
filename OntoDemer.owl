@@ -1,0 +1,1172 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adequate_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consequent_Illness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daily_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embedded_Techologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excessive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harmful_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insufficient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phisioterapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommendation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#-"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Phisioterapy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pressure_relief"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Results"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adequateBehavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#behaviors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#do"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#frequency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#harmfulBehavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#illness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommendations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedIllness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#susceptibilities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#some"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accelerometer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CNN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiovascular_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chronic_Pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Climb_Ramp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EMG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Energy_expediture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_Bad_Posture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_Caloric_Diet_Consuption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_Load_On_the_Arms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FSR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giroscope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HMM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Bursitys_Development_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Diabetes_Development_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Pressure_Ulcers_Development"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Scoliosis_Development_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Thrombosis_Development_Susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Urinary_Infection_Development_Suscepbility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypocaloric_Diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insufficiency_Caloric_Diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insufficiency_Exercice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insufficiency_urinary_catheter_hygiene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kinect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightGBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Move"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obesity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Osteoporosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWD_1_Paul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWD_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWD_3_John"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWD_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWD_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piezoeletric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pressure_relief"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RNN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Regular_Diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rugby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SVM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scoliosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shoulder_Bursitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smartphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spinal_Cord_Injuries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strain_Gage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_a_bath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thrombosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Urinary_and_Bowel_Issues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wash_the_dishes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wheelchair_Racing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#do_phisioterapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#do_sports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inadequate_load_on_the_arms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inadequate_posture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inadequate_urinary_catheter_hygiene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insufficient_diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kNN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sports"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#some"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#activity"/>
+            <Class IRI="#Physical_Activity"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#frequency"/>
+            <Class IRI="#Frequency"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Consequent_Illness"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatedIllness"/>
+            <Class IRI="#Physical_disorder"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harmful_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatedIllness"/>
+            <Class IRI="#Consequent_Illness"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harmful_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#susceptibilities"/>
+            <Class IRI="#Susceptibility"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Physical_Disorder"/>
+            <Class IRI="#Physical_disorder"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#behaviors"/>
+            <Class IRI="#Behavior"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Recommendation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#adequateBehavior"/>
+            <Class IRI="#Adequate_Behavior"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Susceptibility"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#harmfulBehavior"/>
+            <Class IRI="#Harmful_Behavior"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Adequate_Behavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adequate_Behavior"/>
+        <ObjectComplementOf>
+            <Class IRI="#Harmful_Behavior"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daily_Activities"/>
+        <Class IRI="#Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embedded_Techologies"/>
+        <Class IRI="#-"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excessive"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excessive"/>
+        <ObjectComplementOf>
+            <Class IRI="#Insufficient"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excessive"/>
+        <ObjectComplementOf>
+            <Class IRI="#Normal"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harmful_Behavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harmful_Behavior"/>
+        <ObjectComplementOf>
+            <Class IRI="#Adequate_Behavior"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Susceptibility"/>
+        <Class IRI="#Susceptibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Susceptibility"/>
+        <ObjectComplementOf>
+            <Class IRI="#Low_Susceptibility"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insufficient"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insufficient"/>
+        <ObjectComplementOf>
+            <Class IRI="#Excessive"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insufficient"/>
+        <ObjectComplementOf>
+            <Class IRI="#Normal"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Susceptibility"/>
+        <Class IRI="#Susceptibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Susceptibility"/>
+        <ObjectComplementOf>
+            <Class IRI="#High_Susceptibility"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_Learning"/>
+        <Class IRI="#-"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_disorder"/>
+        <Class IRI="#-"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <ObjectComplementOf>
+            <Class IRI="#Excessive"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <ObjectComplementOf>
+            <Class IRI="#Insufficient"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phisioterapy"/>
+        <Class IRI="#Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Physical_Activity"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#ANN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Accelerometer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mental_disorder"/>
+        <NamedIndividual IRI="#Anxiety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Basketball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#CNN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Cardiovascular_Diseases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Chronic_Pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Activities"/>
+        <NamedIndividual IRI="#Climb_Ramp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#DT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mental_disorder"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#EMG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Excessive"/>
+        <NamedIndividual IRI="#Excessive_Bad_Posture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Excessive"/>
+        <NamedIndividual IRI="#Excessive_Caloric_Diet_Consuption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Excessive"/>
+        <NamedIndividual IRI="#Excessive_Load_On_the_Arms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#FSR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Giroscope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#HMM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Bursitys_Development_Susceptibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Diabetes_Development_Susceptibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Pressure_Ulcers_Development"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Scoliosis_Development_Susceptibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Thrombosis_Development_Susceptibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Susceptibility"/>
+        <NamedIndividual IRI="#High_Urinary_Infection_Development_Suscepbility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommendation"/>
+        <NamedIndividual IRI="#Hypocaloric_Diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insufficient"/>
+        <NamedIndividual IRI="#Insufficiency_Caloric_Diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insufficient"/>
+        <NamedIndividual IRI="#Insufficiency_Exercice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insufficient"/>
+        <NamedIndividual IRI="#Insufficiency_urinary_catheter_hygiene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Kinect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#LightGBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Activities"/>
+        <NamedIndividual IRI="#Move"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#NB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Obesity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Osteoporosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical_disorder"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Piezoeletric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommendation"/>
+        <NamedIndividual IRI="#Pressure_relief"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#RL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#RNN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Regular_Diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Rugby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#SVM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Scoliosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Shoulder_Bursitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Smartphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical_disorder"/>
+        <NamedIndividual IRI="#Spinal_Cord_Injuries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Strain_Gage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Activities"/>
+        <NamedIndividual IRI="#Take_a_bath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Tennis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical_disorder"/>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Thrombosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequent_Illness"/>
+        <NamedIndividual IRI="#Urinary_and_Bowel_Issues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embedded_Techologies"/>
+        <NamedIndividual IRI="#Video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Activities"/>
+        <NamedIndividual IRI="#Wash_the_dishes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Wheelchair_Racing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adequate_Behavior"/>
+        <NamedIndividual IRI="#do_phisioterapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adequate_Behavior"/>
+        <NamedIndividual IRI="#do_sports"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_Learning"/>
+        <NamedIndividual IRI="#kNN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#sports"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Diabetes"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#activity"/>
+        <NamedIndividual IRI="#Energy_expediture"/>
+        <NamedIndividual IRI="#Move"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#Diabetes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#Obesity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#Thrombosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#Excessive_Caloric_Diet_Consuption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#High_Diabetes_Development_Susceptibility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+        <NamedIndividual IRI="#High_Thrombosis_Development_Susceptibility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommendations"/>
+        <NamedIndividual IRI="#Obesity"/>
+        <NamedIndividual IRI="#Hypocaloric_Diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <NamedIndividual IRI="#PWD_1_Paul"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#behaviors"/>
+        <NamedIndividual IRI="#PWD_1_Paul"/>
+        <NamedIndividual IRI="#inadequate_load_on_the_arms"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#illness"/>
+        <NamedIndividual IRI="#PWD_1_Paul"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <NamedIndividual IRI="#PWD_2"/>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#illness"/>
+        <NamedIndividual IRI="#PWD_2"/>
+        <NamedIndividual IRI="#Scoliosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <NamedIndividual IRI="#PWD_3_John"/>
+        <NamedIndividual IRI="#Spinal_Cord_Injuries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#behaviors"/>
+        <NamedIndividual IRI="#PWD_3_John"/>
+        <NamedIndividual IRI="#Excessive_Diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#illness"/>
+        <NamedIndividual IRI="#PWD_3_John"/>
+        <NamedIndividual IRI="#Obesity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <NamedIndividual IRI="#PWD_4"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#behaviors"/>
+        <NamedIndividual IRI="#PWD_4"/>
+        <NamedIndividual IRI="#Excessive_Bad_Posture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#PWD_4"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <NamedIndividual IRI="#PWD_5"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#behaviors"/>
+        <NamedIndividual IRI="#PWD_5"/>
+        <NamedIndividual IRI="#insufficient_diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#PWD_5"/>
+        <NamedIndividual IRI="#Insufficiency_Caloric_Diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommendations"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+        <NamedIndividual IRI="#Pressure_relief"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Scoliosis"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Shoulder_Bursitis"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Thrombosis"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Thrombosis"/>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Urinary_and_Bowel_Issues"/>
+        <NamedIndividual IRI="#Paraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <NamedIndividual IRI="#Urinary_and_Bowel_Issues"/>
+        <NamedIndividual IRI="#Tetraplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Physical_Activity"/>
+        <NamedIndividual IRI="#do_sports"/>
+        <NamedIndividual IRI="#sports"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#inadequate_load_on_the_arms"/>
+        <NamedIndividual IRI="#Shoulder_Bursitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#inadequate_load_on_the_arms"/>
+        <NamedIndividual IRI="#Excessive_Load_On_the_Arms"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#inadequate_load_on_the_arms"/>
+        <NamedIndividual IRI="#High_Bursitys_Development_Susceptibility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+        <NamedIndividual IRI="#Scoliosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+        <NamedIndividual IRI="#Excessive_Bad_Posture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+        <NamedIndividual IRI="#High_Pressure_Ulcers_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#inadequate_posture"/>
+        <NamedIndividual IRI="#High_Scoliosis_Development_Susceptibility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#inadequate_urinary_catheter_hygiene"/>
+        <NamedIndividual IRI="#Urinary_and_Bowel_Issues"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#inadequate_urinary_catheter_hygiene"/>
+        <NamedIndividual IRI="#Insufficiency_urinary_catheter_hygiene"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#inadequate_urinary_catheter_hygiene"/>
+        <NamedIndividual IRI="#High_Urinary_Infection_Development_Suscepbility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Results"/>
+        <NamedIndividual IRI="#insufficient_diet"/>
+        <NamedIndividual IRI="#Pressure_Ulcers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#insufficient_diet"/>
+        <NamedIndividual IRI="#Insufficiency_Caloric_Diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <NamedIndividual IRI="#insufficient_diet"/>
+        <NamedIndividual IRI="#High_Pressure_Ulcers_Development"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Phisioterapy"/>
+        <ObjectProperty IRI="#do"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Physical_Activity"/>
+        <ObjectProperty IRI="#do"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Physical_Disorder"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Pressure_relief"/>
+        <ObjectProperty IRI="#do"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Results"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Sports"/>
+        <ObjectProperty IRI="#do"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#activity"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#adequateBehavior"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#behaviors"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#frequency"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#harmfulBehavior"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#illness"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#recommendations"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#relatedIllness"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#susceptibilities"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Diet_Inference</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Obesity"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#do"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Hypocaloric_Diet"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sports_Inference</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Obesity"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#do"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#sports"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Pressure_Relief_Inference</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has"/>
+                <Variable IRI="#x"/>
+                <NamedIndividual IRI="#Pressure_Ulcers"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#do"/>
+                <Variable IRI="#x"/>
+                <NamedIndividual IRI="#Pressure_relief"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
