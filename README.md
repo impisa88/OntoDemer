@@ -1,9 +1,10 @@
 # OntoDemer
 
-This reduced package contains the ontology, competency queries, recorded
-validation outputs, logical control inputs, and relation-level evidence register
-for the minor revision. It does not include Python/PowerShell scripts, Java
-sources, audit plug-ins, screenshots, or the Protege application.
+OntoDemer is an OWL ontology for representing symbolic associations between
+wheelchair users' modeled behaviors, physical disorders, illness concepts,
+susceptibility categories, and preventive recommendations. This repository
+provides the ontology, competency queries, recorded validation outputs,
+logical control inputs, and relation-level evidence register.
 
 ## Files
 
@@ -25,42 +26,39 @@ sources, audit plug-ins, screenshots, or the Protege application.
 - `ENVIRONMENT.md`: recorded tool versions and scope of reproduction.
 - `SHA256.csv`: package file checksums, excluding the checksum file itself.
 
-## Recorded validation
+## Validation
 
-The 7 October 2026 execution in Protege passed 30 query/profile comparisons,
-11 logical controls, and four artifact checks. Exact binding-set equality, not
-row counts alone, determines a passing query/profile comparison. These checks
-establish conformance to the encoded model, not clinical validity.
+The recorded execution in Protege Desktop 5.6.9 passed 30 query/profile
+comparisons, eleven logical controls, and four artifact checks. Query/profile
+comparisons required exact equality between expected and actual binding sets.
+These results assess conformance to the encoded model, not clinical validity.
 
-The asserted ontology SHA-256 is
-`8d876b424350bab287870041b1d8fa5721c6c859677d0e9d0ca9cf290dab8d31`.
-Its metrics are 392 axioms, 166 logical axioms, 22 named classes, 18 object
-properties, one data property, 72 named individuals, and three SWRL rules.
-The 72 individuals are not 72 participants. The five profile identifiers are
-`PWD_1_Paul`, `PWD_2`, `PWD_3_John`, `PWD_4`, and `PWD_5`.
+Complete expected and actual bindings are available in
+[verification.csv](results/verification.csv), and all recorded checks are
+documented in [all-checks.json](results/all-checks.json). Artifact hashes are
+provided in [SHA256.csv](SHA256.csv). The five profiles are modeled evaluation
+cases; the 72 named OWL individuals do not represent 72 study participants.
 
-## Evidence limitations
+## Knowledge provenance
 
-Ten records have contextual literature support, thirteen document symbolic
-modeling choices, and ten lack confirmed relation-level attribution:
-E01, E04, E09, E10, E11, E12, E15, E16, E20, and E23.
-Knowledge elicitation was informal and conducted at the Leme Association.
-The available documentation does not permit attribution of each encoded relation
-to a specific participant. This package does not assign new sources or turn
-unresolved records into confirmed ones.
+The [evidence register](evidence/evidence.csv) documents 33 encoded relations:
+ten with contextual literature support, thirteen representing symbolic modeling
+choices, and ten without confirmed relation-level source attribution.
 
-Sources identified retrospectively must be distinguished from original records.
-Changes to relations require aligned evidence annotations/register, expectations,
-tests, outputs, and manuscript figures. Empty query results do not indicate
-absence of clinical risk.
+Knowledge elicitation was conducted informally at the Leme Association.
+Available documentation does not permit attribution of each relation to a
+specific participant. Retrospectively identified sources are distinguished
+from the original elicitation process. Contextual evidence and symbolic
+susceptibility categories should not be interpreted as calibrated clinical
+risk estimates.
 
-## Scope of this reduced package
+## Usage
 
-Use `SPARQL.md` to inspect the complete queries and recorded outputs manually.
+Use [SPARQL.md](SPARQL.md) to inspect the complete queries and recorded outputs manually.
 The original automated audit tool and dependency-adjustment scripts are not
 distributed here. This package supports manual query inspection and re-execution
 against the supplied materialized ontology, but does not by itself reproduce the
-original automated audit or rebuild its tool. `ENVIRONMENT.md` documents the
+original automated audit or rebuild its tool. [ENVIRONMENT.md](ENVIRONMENT.md) documents the
 recorded environment and dependency adjustment.
 
 ## License
