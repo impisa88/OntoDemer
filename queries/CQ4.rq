@@ -1,0 +1,8 @@
+PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?profile ?illness ?recommendation WHERE {
+VALUES ?profile { my:PWD_1_Paul my:PWD_2 my:PWD_3_John my:PWD_4 my:PWD_5 }
+?profile rdf:type my:Person ; my:illness ?illness ; my:do ?recommendation .
+?illness my:recommendations ?recommendation .
+}
+ORDER BY ?profile ?illness ?recommendation

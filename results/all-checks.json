@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "CQ1_PWD_1_Paul",
+    "query": "CQ1",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ1_PWD_2",
+    "query": "CQ1",
+    "profile": "PWD_2",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ1_PWD_3_John",
+    "query": "CQ1",
+    "profile": "PWD_3_John",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Obesity"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Obesity"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ1_PWD_4",
+    "query": "CQ1",
+    "profile": "PWD_4",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ1_PWD_5",
+    "query": "CQ1",
+    "profile": "PWD_5",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ2_PWD_1_Paul",
+    "query": "CQ2",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis",
+        "High_Bursitys_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis",
+        "High_Bursitys_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ2_PWD_2",
+    "query": "CQ2",
+    "profile": "PWD_2",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ2_PWD_3_John",
+    "query": "CQ2",
+    "profile": "PWD_3_John",
+    "kind": "boundary",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Obesity",
+        ""
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis",
+        "High_Thrombosis_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Obesity",
+        ""
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis",
+        "High_Thrombosis_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ2_PWD_4",
+    "query": "CQ2",
+    "profile": "PWD_4",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis",
+        "High_Scoliosis_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis",
+        "High_Scoliosis_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ2_PWD_5",
+    "query": "CQ2",
+    "profile": "PWD_5",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ3_PWD_1_Paul",
+    "query": "CQ3",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis",
+        "High_Bursitys_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis",
+        "High_Bursitys_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ3_PWD_2",
+    "query": "CQ3",
+    "profile": "PWD_2",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ3_PWD_3_John",
+    "query": "CQ3",
+    "profile": "PWD_3_John",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis",
+        "High_Thrombosis_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Diabetes",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "PWD_3_John",
+        "Excessive_Diet",
+        "Thrombosis",
+        "High_Thrombosis_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ3_PWD_4",
+    "query": "CQ3",
+    "profile": "PWD_4",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis",
+        "High_Scoliosis_Development_Susceptibility"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "PWD_4",
+        "inadequate_posture",
+        "Scoliosis",
+        "High_Scoliosis_Development_Susceptibility"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ3_PWD_5",
+    "query": "CQ3",
+    "profile": "PWD_5",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "behavior",
+      "illness",
+      "susceptibility"
+    ],
+    "expected": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_5",
+        "insufficient_diet",
+        "Pressure_Ulcers",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ4_PWD_1_Paul",
+    "query": "CQ4",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ4_PWD_2",
+    "query": "CQ4",
+    "profile": "PWD_2",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ4_PWD_3_John",
+    "query": "CQ4",
+    "profile": "PWD_3_John",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_3_John",
+        "Obesity",
+        "Hypocaloric_Diet"
+      ],
+      [
+        "PWD_3_John",
+        "Obesity",
+        "sports"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_3_John",
+        "Obesity",
+        "Hypocaloric_Diet"
+      ],
+      [
+        "PWD_3_John",
+        "Obesity",
+        "sports"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ4_PWD_4",
+    "query": "CQ4",
+    "profile": "PWD_4",
+    "kind": "boundary",
+    "columns": [
+      "profile",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ4_PWD_5",
+    "query": "CQ4",
+    "profile": "PWD_5",
+    "kind": "boundary",
+    "columns": [
+      "profile",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ5_PWD_1_Paul",
+    "query": "CQ5",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ5_PWD_2",
+    "query": "CQ5",
+    "profile": "PWD_2",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ5_PWD_3_John",
+    "query": "CQ5",
+    "profile": "PWD_3_John",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ5_PWD_4",
+    "query": "CQ5",
+    "profile": "PWD_4",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ5_PWD_5",
+    "query": "CQ5",
+    "profile": "PWD_5",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness"
+    ],
+    "expected": [
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Diabetes"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Pressure_Ulcers"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Scoliosis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Thrombosis"
+      ],
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Urinary_and_Bowel_Issues"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ6_PWD_1_Paul",
+    "query": "CQ6",
+    "profile": "PWD_1_Paul",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_1_Paul",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ6_PWD_2",
+    "query": "CQ6",
+    "profile": "PWD_2",
+    "kind": "boundary",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_2",
+        "Tetraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ6_PWD_3_John",
+    "query": "CQ6",
+    "profile": "PWD_3_John",
+    "kind": "negative",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [],
+    "actual": [],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ6_PWD_4",
+    "query": "CQ6",
+    "profile": "PWD_4",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_4",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "id": "CQ6_PWD_5",
+    "query": "CQ6",
+    "profile": "PWD_5",
+    "kind": "positive",
+    "columns": [
+      "profile",
+      "disorder",
+      "illness",
+      "recommendation"
+    ],
+    "expected": [
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "actual": [
+      [
+        "PWD_5",
+        "Paraplegia",
+        "Pressure_Ulcers",
+        "Pressure_relief"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Protege plugin"
+  },
+  {
+    "test": "Test_DisorderOnly",
+    "expected": "false",
+    "actual": "false",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_BehaviorOnly",
+    "expected": "false",
+    "actual": "false",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_FrequencyOnly",
+    "expected": "false",
+    "actual": "false",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_ActivityOnly",
+    "expected": "false",
+    "actual": "false",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_Both",
+    "expected": "true",
+    "actual": "true",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_RiskOnly",
+    "expected": "",
+    "actual": "",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_HasOnly",
+    "expected": "",
+    "actual": "",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_KnownObesity",
+    "expected": "Hypocaloric_Diet;sports",
+    "actual": "Hypocaloric_Diet;sports",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "Test_KnownUlcer",
+    "expected": "Pressure_relief",
+    "actual": "Pressure_relief",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "rules_disabled_PWD_1_Paul",
+    "expected": "",
+    "actual": "",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "rules_disabled_PWD_3_John",
+    "expected": "",
+    "actual": "",
+    "status": "PASS",
+    "execution": "Protege HermiT API"
+  },
+  {
+    "test": "three_preserved_rules",
+    "expected": 3,
+    "actual": 3,
+    "status": "PASS",
+    "execution": "Post-processing exported/source files"
+  },
+  {
+    "test": "all_eight_behavior_links",
+    "expected": [
+      [
+        "Excessive_Diet",
+        "Diabetes"
+      ],
+      [
+        "Excessive_Diet",
+        "Obesity"
+      ],
+      [
+        "Excessive_Diet",
+        "Thrombosis"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "inadequate_posture",
+        "Pressure_Ulcers"
+      ],
+      [
+        "inadequate_posture",
+        "Scoliosis"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "insufficient_diet",
+        "Pressure_Ulcers"
+      ]
+    ],
+    "actual": [
+      [
+        "Excessive_Diet",
+        "Diabetes"
+      ],
+      [
+        "Excessive_Diet",
+        "Obesity"
+      ],
+      [
+        "Excessive_Diet",
+        "Thrombosis"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "inadequate_posture",
+        "Pressure_Ulcers"
+      ],
+      [
+        "inadequate_posture",
+        "Scoliosis"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "insufficient_diet",
+        "Pressure_Ulcers"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Post-processing exported/source files"
+  },
+  {
+    "test": "no_cartesian_susceptibility",
+    "expected": 5,
+    "actual": 5,
+    "status": "PASS",
+    "execution": "Post-processing exported/source files"
+  },
+  {
+    "test": "evidence_record_coverage",
+    "expected": [
+      [
+        "Diabetes",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Diabetes"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Obesity"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Thrombosis"
+      ],
+      [
+        "Excessive_Diet",
+        "susceptibilities",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "Excessive_Diet",
+        "susceptibilities",
+        "High_Thrombosis_Development_Susceptibility"
+      ],
+      [
+        "High_Bursitys_Development_Susceptibility",
+        "susceptibilityTo",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "High_Diabetes_Development_Susceptibility",
+        "susceptibilityTo",
+        "Diabetes"
+      ],
+      [
+        "High_Pressure_Ulcers_Development",
+        "susceptibilityTo",
+        "Pressure_Ulcers"
+      ],
+      [
+        "High_Scoliosis_Development_Susceptibility",
+        "susceptibilityTo",
+        "Scoliosis"
+      ],
+      [
+        "High_Thrombosis_Development_Susceptibility",
+        "susceptibilityTo",
+        "Thrombosis"
+      ],
+      [
+        "High_Urinary_Infection_Development_Suscepbility",
+        "susceptibilityTo",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "Obesity",
+        "recommendations",
+        "Hypocaloric_Diet"
+      ],
+      [
+        "Obesity",
+        "recommendations",
+        "sports"
+      ],
+      [
+        "Pressure_Ulcers",
+        "recommendations",
+        "Pressure_relief"
+      ],
+      [
+        "Pressure_Ulcers",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Pressure_Ulcers",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "Scoliosis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Shoulder_Bursitis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Thrombosis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Thrombosis",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "Urinary_and_Bowel_Issues",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Urinary_and_Bowel_Issues",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "Results",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "susceptibilities",
+        "High_Bursitys_Development_Susceptibility"
+      ],
+      [
+        "inadequate_posture",
+        "Results",
+        "Pressure_Ulcers"
+      ],
+      [
+        "inadequate_posture",
+        "Results",
+        "Scoliosis"
+      ],
+      [
+        "inadequate_posture",
+        "susceptibilities",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "inadequate_posture",
+        "susceptibilities",
+        "High_Scoliosis_Development_Susceptibility"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "Results",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "susceptibilities",
+        "High_Urinary_Infection_Development_Suscepbility"
+      ],
+      [
+        "insufficient_diet",
+        "Results",
+        "Pressure_Ulcers"
+      ],
+      [
+        "insufficient_diet",
+        "susceptibilities",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "actual": [
+      [
+        "Diabetes",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Diabetes"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Obesity"
+      ],
+      [
+        "Excessive_Diet",
+        "Results",
+        "Thrombosis"
+      ],
+      [
+        "Excessive_Diet",
+        "susceptibilities",
+        "High_Diabetes_Development_Susceptibility"
+      ],
+      [
+        "Excessive_Diet",
+        "susceptibilities",
+        "High_Thrombosis_Development_Susceptibility"
+      ],
+      [
+        "High_Bursitys_Development_Susceptibility",
+        "susceptibilityTo",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "High_Diabetes_Development_Susceptibility",
+        "susceptibilityTo",
+        "Diabetes"
+      ],
+      [
+        "High_Pressure_Ulcers_Development",
+        "susceptibilityTo",
+        "Pressure_Ulcers"
+      ],
+      [
+        "High_Scoliosis_Development_Susceptibility",
+        "susceptibilityTo",
+        "Scoliosis"
+      ],
+      [
+        "High_Thrombosis_Development_Susceptibility",
+        "susceptibilityTo",
+        "Thrombosis"
+      ],
+      [
+        "High_Urinary_Infection_Development_Suscepbility",
+        "susceptibilityTo",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "Obesity",
+        "recommendations",
+        "Hypocaloric_Diet"
+      ],
+      [
+        "Obesity",
+        "recommendations",
+        "sports"
+      ],
+      [
+        "Pressure_Ulcers",
+        "recommendations",
+        "Pressure_relief"
+      ],
+      [
+        "Pressure_Ulcers",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Pressure_Ulcers",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "Scoliosis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Shoulder_Bursitis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Thrombosis",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Thrombosis",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "Urinary_and_Bowel_Issues",
+        "relatedIllness",
+        "Paraplegia"
+      ],
+      [
+        "Urinary_and_Bowel_Issues",
+        "relatedIllness",
+        "Tetraplegia"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "Results",
+        "Shoulder_Bursitis"
+      ],
+      [
+        "inadequate_load_on_the_arms",
+        "susceptibilities",
+        "High_Bursitys_Development_Susceptibility"
+      ],
+      [
+        "inadequate_posture",
+        "Results",
+        "Pressure_Ulcers"
+      ],
+      [
+        "inadequate_posture",
+        "Results",
+        "Scoliosis"
+      ],
+      [
+        "inadequate_posture",
+        "susceptibilities",
+        "High_Pressure_Ulcers_Development"
+      ],
+      [
+        "inadequate_posture",
+        "susceptibilities",
+        "High_Scoliosis_Development_Susceptibility"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "Results",
+        "Urinary_and_Bowel_Issues"
+      ],
+      [
+        "inadequate_urinary_catheter_hygiene",
+        "susceptibilities",
+        "High_Urinary_Infection_Development_Suscepbility"
+      ],
+      [
+        "insufficient_diet",
+        "Results",
+        "Pressure_Ulcers"
+      ],
+      [
+        "insufficient_diet",
+        "susceptibilities",
+        "High_Pressure_Ulcers_Development"
+      ]
+    ],
+    "status": "PASS",
+    "execution": "Post-processing exported/source files"
+  }
+]

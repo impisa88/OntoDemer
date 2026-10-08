@@ -1,0 +1,6 @@
+{
+  "original_sha256": "98b97c736ceef0a981f10741cef01f54163d399f33ecfe040d0f6e85994710b3",
+  "patched_sha256": "22850f2c649e9d10920542b5c4c53d23dd8cbf6f629e66bf12de94972f401ddb",
+  "change": "DynamicImport-Package: com.google.common.base",
+  "class_files_unchanged": true
+}

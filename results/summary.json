@@ -1,0 +1,14 @@
+{
+  "total": 45,
+  "passed": 45,
+  "failed": 0,
+  "query_profile_checks": 30,
+  "reasoner_fixture_checks": 11,
+  "artifact_postprocessing_checks": 4,
+  "execution": "Protege desktop with local audit plugin; no external reasoner",
+  "owl_sha256": "8d876b424350bab287870041b1d8fa5721c6c859677d0e9d0ca9cf290dab8d31",
+  "source_unchanged": true,
+  "unresolved_evidence": 10,
+  "clinical_evidence_complete": false,
+  "ready_for_submission": false
+}

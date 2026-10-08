@@ -1,95 +1,34 @@
-##  CQ1 - What are the health risks associated with a given behavior?
+# Competency queries
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
+Use the complete files `queries/CQ1.rq` through `CQ6.rq` without changing their
+IRIs. The reported outputs were obtained against
+`results/OntoDemer-materialized.owl`, not just the asserted root ontology.
 
-SELECT distinct ?behavior ?illness WHERE {
-	?behavior my:Results ?illness.
-}
+## Manual inspection in Protege
 
+1. Use a working SPARQL Query Plugin installation with the environment described
+   in `ENVIRONMENT.md`.
+2. Open `results/OntoDemer-materialized.owl` in Protege.
+3. Enable Window > Tabs > SPARQL Query.
+4. Paste a complete query file and execute it.
+5. Compare the returned tuples with the corresponding `results/CQ*.csv` and the
+   expected/actual sets in `results/verification.csv`.
 
+The SPARQL tab does not automatically incorporate HermiT inferences from the
+asserted document. Interface labels can differ from the exact IRIs preserved
+in CSVs. The materialized copy permits inspection of the published bindings;
+it is not a replacement for documenting or repeating materialization.
 
-## CQ2 - What health risks is a wheelchair user susceptible to?
+| Query | Scope | Recorded rows |
+| --- | --- | ---: |
+| CQ1 | Modeled behavior-illness associations | 7 |
+| CQ2 | Associated illnesses and susceptibility categories, where bound | 7 |
+| CQ3 | Associations matching the encoded high-category filter | 6 |
+| CQ4 | Individual recommendations from explicitly modeled conditions | 3 |
+| CQ5 | Illness catalog associated with the modeled physical disorder | 21 |
+| CQ6 | Recommendation catalog associated with the modeled physical disorder | 4 |
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
-
-SELECT distinct ?person ?behavior ?illness ?susceptibility WHERE {
-	?person owl:sameAs my:PWD_1.
-	?person my:behaviors ?behavior.
-	?behavior rdf:type my:Harmful_Behavior.
-	?behavior my:Results ?illness.
-	?behavior my:susceptibilities ?susceptibility	
-}
-
-
-
-## CQ3 - Which behaviors increase the likelihood of developing a health risk for a wheelchair user?
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
-
-SELECT distinct ?person ?behavior ?illness ?susceptibility WHERE {
-	?person owl:sameAs my:PWD_1.
-	?person my:behaviors ?behavior.
-	?behavior rdf:type my:Harmful_Behavior.
-	?behavior my:Results ?illness.
-	?behavior my:susceptibilities ?susceptibility.
-	?susceptibility rdf:type my:High_Susceptibility 
-}
-
-
-
-## CQ4 - What preventive behaviors should a wheelchair user engage in?
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-prefix my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
-
-SELECT distinct ?person ?illness ?recommendation WHERE { 
-	?person owl:sameAs my:PWD_3.
-	?person my:illness ?illness.
-	?person my:do ?recommendation
-}
-
-
-## CQ5 - What additional health risks may arise as a consequence of a disability?
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
-
-SELECT distinct ?disorder ?illness WHERE {
-	?disorder owl:sameAs my:Paraplegia.
-	?illness my:relatedIllness ?disorder	
-}
-
-
-
-## CQ6 - Which activities reduce the likelihood of major health risks given a disability?
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX my: <http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#>
-
-SELECT distinct ?behavior ?recommendation WHERE {
-	?behavior my:recommendations ?recommendation.
-}
-
-
-
+CQ2 retains an unbound susceptibility for John's obesity. CQ3 excludes that
+row because the required high category is not modeled. CQ6 is a catalog query,
+not a statement that every returned profile received an individual SWRL output.
+These results represent encoded associations, not clinical predictions.

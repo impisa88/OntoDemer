@@ -1,0 +1,34 @@
+Started UTC: 2026-10-07T17:33:11.351697300Z
+Java: 11.0.25
+Process: 37520
+Active document: file:/C:/Users/taimi/Desktop/jucs_ontodemer/Minor%20Review/Protege_2026-10-06/OntoDemer.owl
+Active asserted axioms: 392
+Active reasoner: HermiT 1.4.1.432
+main consistent: true
+main unsatisfiable named classes: 0
+main CQ1 rows: 7
+main CQ2 rows: 7
+main CQ3 rows: 6
+main CQ4 rows: 3
+main CQ5 rows: 21
+main CQ6 rows: 4
+main source axioms after: 392
+fixtures consistent: true
+fixtures unsatisfiable named classes: 0
+fixtures CQ1 rows: 7
+fixtures CQ2 rows: 7
+fixtures CQ3 rows: 6
+fixtures CQ4 rows: 3
+fixtures CQ5 rows: 21
+fixtures CQ6 rows: 4
+fixtures source axioms after: 418
+no-rules consistent: true
+no-rules unsatisfiable named classes: 0
+no-rules CQ1 rows: 7
+no-rules CQ2 rows: 7
+no-rules CQ3 rows: 6
+no-rules CQ4 rows: 0
+no-rules CQ5 rows: 21
+no-rules CQ6 rows: 4
+no-rules source axioms after: 389
+Completed UTC: 2026-10-07T17:33:12.299127300Z

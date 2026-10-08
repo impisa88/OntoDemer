@@ -1,0 +1,7 @@
+*.owl -text
+*.rq -text
+*.csv -text
+*.json -text
+*.log -text
+*.md text eol=lf
+.gitattributes text eol=lf
